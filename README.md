@@ -2,6 +2,8 @@
 
 This Unity project generates a stylized arctic environment using procedural terrain generation. The landscape is built from layered noise, slope detection, and animation curves, creating a mix of flat water, ice shelves, rolling forests, and tall mountains.
 
+![Demo](ArcticTerrain.png)
+
 ## 🌨️ Features
 
 - **Height-Based Terrain Generation**  
