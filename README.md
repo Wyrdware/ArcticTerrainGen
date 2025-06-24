@@ -1,10 +1,10 @@
-# Arctic Landscape Generator
+# Landscape Generator
 
-This Unity project generates a stylized arctic environment using procedural terrain generation. The landscape is built from layered noise, slope detection, and animation curves, creating a mix of flat water, ice shelves, rolling forests, and tall mountains.
+This Unity project generates a stylized arctic environment. The landscape is generated through noise thats further modified through slope detection and animation curves, creating a mix of flat water, ice shelves, forests, and tall mountains.
 
 ![Demo](ArcticTerrain.png)
 
-## 🌨️ Features
+## Features
 
 - **Height-Based Terrain Generation**  
   Perlin noise is mapped through animation curves to shape different terrain zones—flat lakes, raised ice, gentle forested areas, and mountain peaks.
@@ -21,14 +21,14 @@ This Unity project generates a stylized arctic environment using procedural terr
 - **Atmospheric Effects**  
   Light blue fog and a bright skybox help sell the cold, distant feel of the environment.
 
-## 🛠️ How It Works
+## How It Works
 
 - Custom **animation curves** drive elevation shaping  
 - **Slope-based rules** control texture blending  
 - A **16-texture UV map** is used across terrain, with ~8 active textures  
 - **Props placed procedurally** based on terrain height and slope
 
-## 🧩 Assets Used
+## Assets Used
 
 - **Textures**  
   [Dokucraft Dwarven](https://dokucraft.co.uk/resource-packs/dwarven)
@@ -41,7 +41,7 @@ This Unity project generates a stylized arctic environment using procedural terr
 - **Skybox**  
   [Free Stylized Skybox](https://assetstore.unity.com/packages/2d/textures-materials/sky/free-stylized-skybox-212257)
 
-## 🚧 Future Plans
+## Future Plans
 
 - Add collision to make the terrain interactive  
 - Refactor terrain bands for faster iteration and better variety  
